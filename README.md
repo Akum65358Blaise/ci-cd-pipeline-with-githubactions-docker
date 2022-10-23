@@ -94,8 +94,8 @@ $ gunicorn app:app -b 0.0.0.0:8000
 Run:
 
 ```
-$ docker build -t ci-cd-tutorial-sample-app:latest .
-$ docker run -d -p 8000:8000 ci-cd-tutorial-sample-app:latest
+$ docker build -t ci-cd-pipeline-with-githubactions-docker:latest .
+$ docker run -d -p 8000:8000 ci-cd-pipeline-with-githubactions-docker:latest
 ```
 
 ## Deploying to Heroku
